@@ -57,7 +57,7 @@ ARG GID
 
 ## Basis ##
 ENV ENV=prod \
-    PORT=8080 \
+    PORT=8081 \
     # pass build args to the build
     USE_OLLAMA_DOCKER=${USE_OLLAMA} \
     USE_CUDA_DOCKER=${USE_CUDA} \
